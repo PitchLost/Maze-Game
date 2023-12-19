@@ -44,7 +44,7 @@ while run == True:
     # Event Listener: 
     for event in pygame.event.get():
         # Listen for the quit event 
-        if event == pygame.QUIT: 
+        if event.type == pygame.QUIT: 
             run = False # Setting this to false will break the loop
         # Any Other Event Listeners:
 
